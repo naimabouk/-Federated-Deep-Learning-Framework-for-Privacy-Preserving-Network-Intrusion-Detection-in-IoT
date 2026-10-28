@@ -1,0 +1,9 @@
+model,accuracy_pct,precision,recall,f1,source
+Gradient Boosting,98.6,0.99,0.99,0.99,thesis Table 15
+Random Forest,97.7,0.98,0.97,0.97,thesis Table 15
+Decision Tree,97.2,0.96,0.96,0.96,thesis Table 15
+KNN,86.7,0.87,0.85,0.86,thesis Table 15
+FFN + autoencoder,84.9,0.869,0.838,0.841,thesis Table 16
+GRU + autoencoder,85.0,0.887,0.854,0.841,thesis Table 16
+LSTM + autoencoder,85.1,0.898,0.857,0.847,thesis Table 16
+CNN + autoencoder,85.9,0.873,0.832,0.825,thesis Table 16

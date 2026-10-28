@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper."
+title: "FED-NIDS: A Bio-Inspired Federated Deep Learning Framework for Privacy-Preserving Network Intrusion Detection in IoT"
+authors:
+  - {family-names: Mallem, given-names: Bourhane Eddine Islam}
+  - {family-names: Boukhiar, given-names: Naima}
+  - {family-names: Ojwo, given-names: Pius Sunday}
+date-released: 2026-10-27

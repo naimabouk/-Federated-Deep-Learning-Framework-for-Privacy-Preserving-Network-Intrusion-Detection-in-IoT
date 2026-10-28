@@ -1,0 +1,14 @@
+# Main configuration: W&B run gsunfh9x (pious-elevator-5). Source: camera-ready paper, Table III.
+clients: 20
+rounds: 7
+local_epochs: 10
+learning_rate: 0.001
+momentum: 0.9
+pretrain_epochs: 10
+batch_size: 64
+fit_clients_field: 10        # stored field; actual round 7 = 20 fit results
+eval_clients_field: 5        # stored field; actual round 7 = 20 evaluation results
+strategy: FedProx            # mu = 0.1 per thesis Sec. 6.5.2
+model: {input_size: 15, encoded_size: 32, hidden_size: 64, num_classes: 8}
+split: "60/20/20 (nominal)"
+framework: "Flower + PyTorch (simulation, Ray)"

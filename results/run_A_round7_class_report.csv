@@ -1,0 +1,9 @@
+class,precision,recall,f1,support
+Attack,1.00,0.93,0.96,168627
+Benign,0.59,0.95,0.72,168627
+C&C,0.91,0.80,0.85,168627
+C&C-HeartBeat,1.00,0.92,0.96,168627
+DDoS,1.00,1.00,1.00,168627
+HeartBeat,0.87,1.00,0.93,168627
+Okiru,1.00,1.00,1.00,168627
+PartOfAHorizontalPortScan,0.92,0.45,0.61,168627

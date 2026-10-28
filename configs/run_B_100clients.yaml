@@ -1,0 +1,12 @@
+# Convergence observation: W&B run xjbhw3rt (peach-wave-26). Source: paper Table III.
+clients: 100
+rounds: 75
+local_epochs: 3
+learning_rate: 0.01
+momentum: 0.9
+pretrain_epochs: 1
+batch_size: 64
+fit_clients_field: 15
+eval_clients_field: 50       # distributed evaluation skipped at round 75
+commit: 4a14f782
+model: {input_size: 15, encoded_size: 32, hidden_size: 64, num_classes: 8}
