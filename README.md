@@ -26,7 +26,7 @@ Per-class results (Run A, round 7) show strong detection of DDoS, Okiru, Attack 
 | Detector | Autoencoder (15 inputs, 32-d code) + feedforward classifier (hidden 64, 8 classes) |
 | Training | Autoencoder pretraining, then federated classifier training; batch size 64 |
 | Dataset | IoT-23 derivative (Aposemat Kaggle, resampled with SMOTE), 8 classes, 60/20/20 nominal split |
-| Bio-inspired layer | ASSCO, ISSA-HHO, PSO-GA, GWO-ABC (feature / parameter / architecture search) |
+| Bio-inspired layer | ASSCO, ISSA-HHO, PSO-GA, GWO-ABC (feature/parameter / architecture search) |
 | Hardware | Apple M1 Pro, 16 GB, Python 3.12.7, macOS 14.6.1 |
 
 More: [`docs/architecture.md`](docs/architecture.md), [`docs/methodology.md`](docs/methodology.md).
@@ -38,7 +38,7 @@ Kept deliberately honest, in line with the paper:
 - Results come from **simulated clients on one IoT-23-derived dataset**, single runs, no seed repetitions.
 - The two runs use different settings, so they are **not** a controlled scalability comparison.
 - The four bio-inspired strategies are **not ablated**; no per-module gain is claimed.
-- TLS 1.3, differential privacy and secure aggregation appear in the architecture as **intended interfaces**. No formal privacy guarantee or measured privacy attack is reported, and the thesis states full transmission encryption was not implemented.
+- TLS 1.3, differential privacy, and secure aggregation appear in the architecture as **intended interfaces**. No formal privacy guarantee or measured privacy attack is reported, and the thesis states full transmission encryption was not implemented.
 - The 32-d encoding exceeds the 15 input features, so it is **not dimensionality reduction**.
 - The 0.912 s "training time" of Run B is a **callback subtotal**, not elapsed training.
 
@@ -71,17 +71,12 @@ assets/
 ```bibtex
 @inproceedings{mallem2026fednids,
   title     = {FED-NIDS: A Bio-Inspired Federated Deep Learning Framework for Privacy-Preserving Network Intrusion Detection in IoT},
-  author    = {Mallem, Bourhane Eddine Islam and Boukhiar, Naima and Ojwo, Pius Sunday},
+  author    = {Mallem Bourhane Eddine Islam and Boukhiar Naima and Ojwo Pius Sunday},
   booktitle = {IEEE International Conference on Federated Learning Technologies and Applications (FLTA), FedSecAI Workshop},
   year      = {2026},
   address   = {Paris, France}
 }
 ```
 
-## Authors
 
-- Bourhane Eddine Islam Mallem, EFREI Paris
-- Naima Boukhiar, Algiers 1 University
-- Pius Sunday Ojwo, University of Constantine 2 – Abdelhamid Mehri
 
-Supervisors of the original thesis: K. Boukhelfa, I. Bouramoul (University of Constantine 2).
